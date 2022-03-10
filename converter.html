@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="logic.js"></script>
+    <div class="container">
+        <h1 class="page-title">
+          Conversor de moedas
+        </h1>
+        <p class="page-subtitle">
+          Descubra os valores em Dolar Americano, Euro ou Dólar Canadense
+        </p>
+        <br>
+        <label for="valor">Insira o valor em Reais R$:</label><br>
+        <input type="number" id="valor" /><br>
+        <button type="submit" onclick="ConverterDolar()">Converter em Dólar Americano</button>
+        <button type="submit" onclick="ConverterEuro()">Converter em Euro</button>
+        <button type="submit" onclick="ConverterCad()">Converter em Dólar Canadense</button>
+        <h2 id="valorConvertidoUsa"></h2>
+        <h2 id="valorConvertidoEur"></h2>
+        <h2 id="valorConvertidoCad"></h2>
+    </div>
+</body>
+</html>
